@@ -9,7 +9,7 @@ const port = process.env.PORT;
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:4200",
+    origin: "https://fullstack-7899a.web.app/register",
   })
 );
 
